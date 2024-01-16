@@ -1,0 +1,357 @@
+*{
+    margin: 0!important;
+    padding: 0!important;
+    box-sizing: border-box!important;
+}
+.blue{
+    height: 45px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000;
+    font-size:20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.blue:hover{
+    height: 45px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #e1002b;
+    font-size:20px;
+    border: 2px solid #e1002b;
+}
+.bg-darkred{
+    background-color: #da002b;
+    height: 55px;
+}
+.navbar li{
+    list-style-type: none;
+}
+.payment{
+    width: 180px;
+    height: 35px;
+    background-color: #ffffff;
+   text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+.payment a{
+    color: #e1002b;
+    font-size: 18px;
+    font-weight: 500;
+}
+.payment:hover{
+    background-color: #e1002b;
+    border: 3px solid #ffffff;
+    transition: 0.5s;
+}
+.payment  a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.discount{
+    width: 130px;
+    height: 35px;
+    background-color: #e1002b;
+   text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+.discount a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.discount:hover{
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    transition: 0.5s;
+}
+.discount a:hover{
+    color: #e1002b;
+    text-decoration: none;
+}
+.game{
+    width: 160px;
+    height: 35px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+.game a{
+    color: #e1002b;
+    font-size: 18px;
+    font-weight: 500;
+}
+.game:hover{
+    background-color: #e1002b;
+    border: 3px solid #ffffff;
+    transition: 0.5s;
+}
+.game a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.map a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.map a:hover{
+    color: #f4b3c0;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.phone a{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.phone a:hover{
+    color: #f4b3c0;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+.ml-10{
+    margin-left: 30px!important;
+}
+.sell{
+    width: 150px;
+    height: 40px;
+    background-color: #e1002b;
+   text-align: center;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+}
+.sell a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sell:hover{
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    transition: 0.5s;
+}
+.sell a:hover{
+    color: #e1002b;
+    text-decoration: none;
+}
+.language ul li{
+    margin: 0 5px!important;
+}
+.language ul li a{
+    width: 150px;
+}
+.icon-item{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.icon-item a{
+    padding: 14px 12px!important;
+}
+.icon-item i{
+    padding: 5px 30px!important;
+}
+.icon-item .icon a:hover{
+    color: #da002b!important;
+    text-decoration: none!important;
+}
+.icon-item .icon i:hover{
+    color: #da002b!important;
+}
+.carousel-item{
+    width: 1030px!important;
+    height: 380px;
+    padding-left: 25px !important;
+}
+.carts{
+    border: 3px solid #da002b;
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+}
+.cart{
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    width: 25px;
+
+}
+.sums{
+    background-color: #ffd740;
+    width: 140px;
+    margin-left: 15px!important;
+    padding-left: 15px!important;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.sum{
+    background-color: #ffd740;
+    width: 150px;
+    margin-left: 15px!important;
+    padding-left: 15px!important;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.products{
+    display: flex;
+}
+.img a{
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+}
+.products .img a:hover{
+    color: #da002b;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+.offise{
+    margin: 70px 10px!important;
+}
+.cart-img{
+    height: 300px!important;
+    margin-left: 15px!important;
+    padding-left: 15px!important;
+}
+.red{
+    background-color: #e1002b;
+    color: #ffffff;
+    height: 30px;
+    width: 85px;
+    margin-left: 15px!important;
+    padding-left: 15px!important;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+}
+.cart-icon{
+    float: right;
+    color: #999999;
+}
+.buttuns{
+    height: 40px;
+    width: 40px;
+    border-radius: 7px;
+    background-color: #ffffff;
+ }
+.but{
+    background-color: #ffffff;
+    color: #da002b;
+    width: 190px;
+    height: 40px;
+    border-radius: 7px;
+    border: 3px solid #da002b ;
+ }
+.icon-text{
+    margin-top: 35px !important;
+    margin-left: 50px !important;
+}
+.avtotovar img{
+    border-radius: 20px;
+}
+
+.cart-img{
+    height: 280px!important;
+    margin-left: 12px!important;
+    padding-left: 13px!important;
+}
+.cart-imgs a{
+    color: #000;
+    font-weight: 400px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.cart-imgs a:hover{
+    color: #da002b;
+    text-decoration: none;
+    font-size: 18px;
+}
+.reds{
+    background-color: #e1002b;
+    color: #ffffff;
+    height: 30px;
+    width: 85px;
+    margin-left: 15px!important;
+    padding-left: 15px!important;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+}
+.cart-icons{
+    float: right;
+    color: #999999;
+    padding-right: 10px!important;
+}
+.buttunss{
+    height: 40px;
+    width: 40px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    margin-top: 80px!important;
+    margin-left: -12px!important;
+ }
+.buts{
+    background-color: #ffffff;
+    color: #da002b;
+    width: 140px;
+    height: 40px;
+    border-radius: 7px;
+    border: 3px solid #da002b ;
+    margin-left: 20px!important;
+    margin-top: 80px!important;
+ }
+.icon-texts{
+    margin-top: 30px !important;
+    margin-left: 40px !important;
+    display: flex;    
+}
+.purchase-item img{
+    width: 1400px!important;
+    margin-top: 44px!important;
+    margin-left: 50px!important;
+    border-radius: 15px;
+}
+.sams{
+    background-color: #ffd740;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.ret{
+    background-color: #e1002b;
+    color: #ffffff;
+    height: 30px;
+    width: 65px;
+    margin-left: 15px!important;
+    padding-left: 15px!important;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+}
+.pre-text{
+    text-align: center;
+    margin-top: 80px!important;
+    font-size: 20px;
+    font-weight: 600px;
+}
+.footer-text{
+    color: #000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.footer-icon a{
+   margin-top: 20x!important;
+}
